@@ -113,11 +113,18 @@ h1 {
   align-items: center;
 }
 .info .sub-container img {
+  display: flex;
+  justify-self: center; /* Centers horizontally */
+  /* align-self: flex-end; Centers vertically */
   border: 2px solid #000;
   margin-bottom: 10px;
   border-radius: 10px;
-  height: 20vh;
-  max-width: 70%;
+  height: 100%;
+  width: 80%;
+}
+.info p {
+  text-align: center;
+  /* background-color: #3882f6; */
 }
 
 /* BLOCK QUOTE SECTION */
@@ -129,17 +136,26 @@ h1 {
 }
 .quote {
   text-align: center;
+  position: relative;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
 }
 .quote p {
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
+  /* background-color: #3882f6; */
 }
+
 .quote .cite {
+  justify-self: center;
+  align-self: flex-end;
   font-weight: 700;
   color: #000;
-  text-align: end;
-  margin-right: 20vh;
+  /* text-align: end; */
+  /* margin-right: 20vh; */
+  /* background-color: red; */
 }
 
 /* SECTION CALL TO ACTION */
