@@ -137,7 +137,7 @@ h1 {
 .quote {
   text-align: center;
   position: relative;
-  /* background-color: yellow; */
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
 }
